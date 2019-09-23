@@ -1,0 +1,15 @@
+{
+    "name": "td-wp-plugin/td-zoho-crm-sdk-wrapper",
+    "description": "Helps with initializing the Zoho CRM PHP SDK in WordPress via WP CLI.",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robbert van 't Westende",
+            "email": "robbert@totaldesign.com"
+        }
+    ],
+    "require": {
+        "zohocrm/php-sdk": "^2.0"
+    }
+}
