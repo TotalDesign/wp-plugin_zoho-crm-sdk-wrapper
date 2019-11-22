@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad268f24792f5e9e996988259d73b84e",
+    "content-hash": "b2318013a6013b5ff07cb94ad626e1cc",
     "packages": [
         {
             "name": "zohocrm/php-sdk",
-            "version": "2.0.4",
+            "version": "2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zoho/zcrm-php-sdk.git",
-                "reference": "fb1f546e15bb8ce13571e488bf773c53f77d00cf"
+                "reference": "b92c7ef81f226ccae167f3df9b2d82b14ad4c4bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zoho/zcrm-php-sdk/zipball/fb1f546e15bb8ce13571e488bf773c53f77d00cf",
-                "reference": "fb1f546e15bb8ce13571e488bf773c53f77d00cf",
+                "url": "https://api.github.com/repos/zoho/zcrm-php-sdk/zipball/b92c7ef81f226ccae167f3df9b2d82b14ad4c4bc",
+                "reference": "b92c7ef81f226ccae167f3df9b2d82b14ad4c4bc",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
             ],
             "description": "Zoho CRM API SDK for PHP",
             "homepage": "https://github.com/zoho/zcrm-php-sdk",
-            "time": "2019-09-13T13:02:09+00:00"
+            "time": "2019-11-20T14:54:14+00:00"
         }
     ],
     "packages-dev": [],

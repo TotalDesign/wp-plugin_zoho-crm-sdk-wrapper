@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Zoho CRM SDK Wrapper
 Description:  Helps with initializing the Zoho CRM PHP SDK in WordPress via WP CLI.
-Version:      0.1.0
+Version:      0.1.1
 Author:       Total Design
 Author URI:   https://www.totaldesign.com/
 License:      MIT License
@@ -16,7 +16,7 @@ use zcrmsdk\oauth\ZohoOAuth;
 call_user_func(function () {
     $config = [
         ZohoOAuthConstants::IAM_URL => getenv('ZOHO_ACCOUNTS_URL') ?: 'https://accounts.zoho.com',
-        APIConstants::API_BASEURL => getenv('ZOHO_API_BASE_URL') ?: 'www.zohoapis.com',
+        APIConstants::API_BASE_URL => getenv('ZOHO_API_BASE_URL') ?: 'www.zohoapis.com',
         ZohoOAuthConstants::CLIENT_ID => getenv('ZOHO_CLIENT_ID'),
         ZohoOAuthConstants::CLIENT_SECRET => getenv('ZOHO_CLIENT_SECRET'),
         APIConstants::CURRENT_USER_EMAIL => getenv('ZOHO_CURRENT_USER_EMAIL'),
